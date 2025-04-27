@@ -1,7 +1,9 @@
-streamlit 
-pandas 
-numpy 
-ccxt
-mplfinance 
-matplotlib
-Pillow 
+binance                   0.3
+ccxt                      4.3.38
+matplotlib                3.9.0
+mplfinance                0.12.10b0
+numpy                     1.26.4
+pandas                    2.2.2
+pillow                    10.3.0
+python-binance            1.0.19
+streamlit                 1.44.1
