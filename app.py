@@ -61,7 +61,7 @@ st.title("📈Escaner de Acción Crypto | GENAROCOIN📉")
 par = st.text_input("Par de trading (Ej: BTC/USDT)", "BTC/USDT")
 intervalo = st.selectbox("Intervalo del gráfico", ["1m", "5m", "15m", "1h", "4h", "1d", "1w"])
 
-logo_path = "C:/Users/User/Documents/py/PERSONA_BASE_1.png"
+logo_path = "/PERSONA_BASE_1.png"
 
 if st.button("Obtener Datos y Generar Gráficos"):
     df_velas = obtener_datos_binance(par, intervalo)
